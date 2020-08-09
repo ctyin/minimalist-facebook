@@ -1,0 +1,12 @@
+{
+  "name": "Minimalist Facebook",
+  "version": "1.0",
+  "description": "Decluttering Facebook landing page",
+  "content_scripts": [
+    {
+      "js": ["applyOptions.js"],
+      "matches": ["*://www.facebook.com/"]
+    }
+  ],
+  "manifest_version": 2
+}
